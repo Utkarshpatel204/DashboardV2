@@ -258,7 +258,7 @@ export default function EnhancedTable({
 
   const handleEdit = (id) => {};
   const handleDelete = (id) => {
-    setData((prev) => prev.filter((identity) => identity != id));
+    setData((prev) => prev.filter((identity) => identity !== id));
   };
 
   useEffect(() => {
