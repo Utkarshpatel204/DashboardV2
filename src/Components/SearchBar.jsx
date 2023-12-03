@@ -9,8 +9,6 @@ function SearchBar({ setSearchInput }) {
         className="border w-1/4 p-2 mt-5 mx-2"
         onChange={(e) => setSearchInput((prev) => e.target.value)}
       />
-
-      <button className="mt-5 mx-4">Delete</button>
     </div>
   );
 }
